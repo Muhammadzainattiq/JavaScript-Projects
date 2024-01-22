@@ -1,0 +1,64 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-image: url('back.jpeg'); /* Add your background image path */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff7b54;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff5a33;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#result {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #4caf50;
+}
+
+.blink-once {
+  animation: blink 0.5s 1 alternate; /* Blinking animation once */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+
+#instruction {
+  font-size: 16px;
+  color: #333;
+}
